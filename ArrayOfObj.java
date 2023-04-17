@@ -1,3 +1,4 @@
+import java.util.Scanner;
 class Student{
     String name;
     int roll;
@@ -14,7 +15,7 @@ class Student{
 
 public class ArrayOfObj {
     public static void main(String args[]){
-
+        Scanner sc=new Scanner(System.in);
         Student arr[]=new Student[2];   //array of object
 
         arr[0]=new Student("Arijit Bhakta", 11, 22, "CSE");
@@ -23,5 +24,6 @@ public class ArrayOfObj {
         for(int i=0; i<arr.length; i++){
             System.out.println(arr[i].name+" "+arr[i].roll+" "+arr[i].age+" "+arr[i].dept);
         }
+        sc.close();
     }
 }
