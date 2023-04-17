@@ -22,6 +22,7 @@ public class DeleteArrayElement {
         }
         System.out.println("Old array: "+Arrays.toString(arr));
         System.out.println("New array: "+Arrays.toString(newArr));
+        System.out.println("Commited through GitHub");
         sc.close();
     }
 }
