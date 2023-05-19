@@ -4,6 +4,11 @@ interface AnoDemo{
 }
 
 public class AnonymousClass1{
+
+    /**
+     * This is the main method
+     * @param args An array of strings
+     */
     public static void main(String[] args){
         AnoDemo ad=new AnoDemo() {
             @Override
